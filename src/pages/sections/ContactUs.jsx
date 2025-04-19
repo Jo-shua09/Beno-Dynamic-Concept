@@ -21,7 +21,7 @@ const ContactUs = () => {
   };
 
   return (
-    <div className="w-full section mb-16">
+    <div className="w-full section mb-16" id="contact">
       <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.6 }} className="w-[90%] mx-auto">
         <h2 className="text-3xl font-bold text-center mb-2">Get in Touch</h2>
         <p className="text-2xl text-center normal-case text-gray-600 mb-12">
@@ -63,7 +63,7 @@ const ContactUs = () => {
             animate={{ opacity: 1, x: 0 }}
             transition={{ duration: 0.6, delay: 0.2 }}
             onSubmit={handleSubmit}
-            className="space-y-6 w-1/2"
+            className="space-y-6 md:w-1/2 w-full"
           >
             <div>
               <label className="block text-2xl mb-2" htmlFor="fullName">

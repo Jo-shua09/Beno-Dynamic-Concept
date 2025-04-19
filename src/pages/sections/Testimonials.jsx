@@ -22,7 +22,7 @@ const Testimonials = () => {
   ];
 
   return (
-    <section className="section w-full">
+    <section className="section w-full" id="testimonial">
       <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.8 }} className="max-w-6xl mx-auto">
         <h2 className="text-3xl font-bold text-center mb-12 text-gray-800">What Our Clients Say</h2>
 

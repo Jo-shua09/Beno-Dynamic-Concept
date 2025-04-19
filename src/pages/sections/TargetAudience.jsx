@@ -4,10 +4,11 @@ import { motion } from "framer-motion";
 const TargetAudience = () => {
   return (
     <motion.div
+      id="whychoose"
       initial={{ opacity: 0, y: 20 }}
       animate={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.8 }}
-      className="w-11/12  section mx-auto px-4 sm:px-6 lg:px-8 py-16"
+      className="w-11/12   section mx-auto px-4 sm:px-6 lg:px-8 py-16"
     >
       <motion.h2
         initial={{ opacity: 0, x: -20 }}

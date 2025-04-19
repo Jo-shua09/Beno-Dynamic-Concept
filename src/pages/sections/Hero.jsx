@@ -10,14 +10,19 @@ const Hero = () => {
           <h1 className=" md:w-1/2 sm:text-[5rem] w-[90%] text-[3.7rem] my-5 sm:my-8 leading-[4.5rem] font-bold capitalize">
             Experience the difference of professionally trained defensive drivers
           </h1>
-          <p className="sm:text-4xl md:w-1/2 w-full text-3xl normal-case text-white font-medium">
+          <p className="sm:text-4xl my-6 mb-16 md:w-1/2 w-full text-3xl normal-case text-white font-medium">
             Elivate your transportatiion experience with Beno Dynamic Concept - where safety, punctuality, and unparalled professionalism are our top
             priorities.
           </p>
-          <div className="mt-8">
-            <button className="bg-white text-secondary font-semibold px-10 py-4 rounded-lg uppercase text-2xl hover:scale-95 transition-all">
+          <div className="">
+            <a
+              href="https://wa.me/2348133902855"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="bg-white text-secondary font-semibold px-10 py-5 rounded-xl uppercase text-2xl hover:scale-95 transition-all"
+            >
               hire a driver
-            </button>
+            </a>
           </div>
         </div>
       </div>

@@ -53,7 +53,7 @@ const Benefits = () => {
   ];
 
   return (
-    <motion.div className="w-full section" initial="hidden" whileInView="visible" viewport={{ once: true, margin: "-100px" }}>
+    <motion.div id="about" className="w-full section" initial="hidden" whileInView="visible" viewport={{ once: true, margin: "-100px" }}>
       <div className="mx-auto px-4 sm:px-6 w-full lg:px-8">
         <motion.h2
           className="text-3xl md:text-4xl lg:text-5xl text-center font-bold mb-16 uppercase tracking-wide text-gray-900"

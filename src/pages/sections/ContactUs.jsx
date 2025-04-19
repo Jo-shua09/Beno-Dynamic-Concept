@@ -13,7 +13,7 @@ const ContactUs = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
     // Handle form submission logic here
-    window.location.href = `mailto:jonyeka773@gmail.com?subject=Contact Form Submission&body=Name: ${formData.fullName}%0D%0AEmail: ${formData.email}%0D%0APhone: ${formData.phone}%0D%0AMessage: ${formData.message}`;
+    window.location.href = `mailto:onyekaaigbazegmail.com?subject=Contact Form Submission&body=Name: ${formData.fullName}%0D%0AEmail: ${formData.email}%0D%0APhone: ${formData.phone}%0D%0AMessage: ${formData.message}`;
   };
 
   const handleChange = (e) => {

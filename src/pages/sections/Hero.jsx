@@ -11,7 +11,7 @@ const Hero = () => {
             Experience the difference of professionally trained spy police drivers
           </h1>
           <p className="sm:text-4xl my-6 mb-16 md:w-1/2 w-full text-3xl normal-case text-white font-medium">
-            Elivate your transportatiion experience with Beno Dynamic Concept - where safety, punctuality, and unparalled professionalism are our top
+            Elevate your transportatiion experience with Beno Dynamic Concept - where safety, punctuality, and unparalled professionalism are our top
             priorities.
           </p>
           <div className="">

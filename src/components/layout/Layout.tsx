@@ -14,7 +14,7 @@ const Layout = ({ children, loading = false }: LayoutProps) => {
   }
 
   return (
-    <div className="min-h-screen bg-background">
+    <div className="min-h-screen bg-background w-full max-w-[185rem] mx-auto overflow-x-hidden">
       <Navbar />
       <main>{children}</main>
       <Footer />

@@ -163,11 +163,11 @@ const Navbar = () => {
                 }}
               >
                 <a
-                  href="tel:+2348133902855"
+                  href="tel:+2347060443225"
                   className="block w-full py-4 text-center text-sm text-foreground/80 hover:text-gold transition-colors border border-border/50 rounded-lg hover:border-gold/50"
                   onClick={() => setIsMobileMenuOpen(false)}
                 >
-                  Or call now: <span className="font-semibold text-gold">+234 813 390 2855</span>
+                  Or call now: <span className="font-semibold text-gold">+234 706 044 3225</span>
                 </a>
               </div>
             </div>

@@ -22,15 +22,22 @@ const Footer = () => {
               Nigeria's premier executive transportation service. Where safety, punctuality, and unparalleled professionalism are our top priorities.
             </p>
             <div className="flex gap-4">
-              {[Facebook, Instagram, Linkedin, Twitter].map((Icon, i) => (
-                <a
-                  key={i}
-                  href="#"
-                  className="w-10 h-10 rounded-lg bg-muted/50 flex items-center justify-center text-muted-foreground hover:bg-gold hover:text-primary-foreground transition-all duration-300"
-                >
-                  <Icon className="w-4 h-4" />
-                </a>
-              ))}
+              <a
+                href="https://www.linkedin.com/in/onyeka-aigbaze-8047572b0?"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="w-10 h-10 rounded-lg bg-muted/50 flex items-center justify-center text-muted-foreground hover:bg-gold hover:text-primary-foreground transition-all duration-300"
+              >
+                <Linkedin className="w-4 h-4" />
+              </a>
+              <a
+                href="https://web.facebook.com/beno.dynamic.concerts/?_rdc=1&_rdr#"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="w-10 h-10 rounded-lg bg-muted/50 flex items-center justify-center text-muted-foreground hover:bg-gold hover:text-primary-foreground transition-all duration-300"
+              >
+                <Facebook className="w-4 h-4" />
+              </a>
             </div>
           </div>
 

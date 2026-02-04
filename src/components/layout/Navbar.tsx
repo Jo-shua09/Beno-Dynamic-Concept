@@ -41,7 +41,7 @@ const Navbar = () => {
       <nav
         className={cn(
           "fixed top-0 left-0 right-0 z-50 transition-all duration-500",
-          isScrolled ? "py-3 backdrop-blur-xl bg-background/80 border-b border-border/50 shadow-lg" : "py-6 bg-transparent"
+          isScrolled ? "py-3 backdrop-blur-xl bg-background/80 border-b border-border/50 shadow-lg" : "py-6 bg-transparent",
         )}
       >
         <div className="container-custom flex items-center justify-between px-4 md:px-8">
@@ -64,7 +64,7 @@ const Navbar = () => {
                 to={link.href}
                 className={cn(
                   "relative text-sm font-medium transition-colors duration-300 py-2",
-                  location.pathname === link.href ? "text-gold" : "text-foreground/80 hover:text-gold"
+                  location.pathname === link.href ? "text-gold" : "text-foreground/80 hover:text-gold",
                 )}
               >
                 {link.name}
@@ -98,18 +98,18 @@ const Navbar = () => {
         <div
           className={cn(
             "lg:hidden fixed inset-0 z-40 transition-all duration-500 ease-in-out",
-            isMobileMenuOpen ? "opacity-100 pointer-events-auto" : "opacity-0 pointer-events-none"
+            isMobileMenuOpen ? "opacity-100 pointer-events-auto" : "opacity-0 pointer-events-none",
           )}
           onClick={() => setIsMobileMenuOpen(false)}
         >
           {/* Background with blur */}
-          <div className="absolute inset-0 bg-background/95 backdrop-blur-xl" />
+          <div className="absolute inset-0 bg-background" />
 
           {/* Content Container */}
           <div
             className={cn(
-              "absolute inset-0 flex flex-col h-full space-y-12 pt-24 pb-32 px-6 transition-transform duration-500 ease-in-out",
-              isMobileMenuOpen ? "translate-y-0" : "translate-y-4"
+              "absolute inset-0 flex flex-col h-full min-h-screen w-full bg-background space-y-12 pt-24 pb-32 px-6 transition-transform duration-500 ease-in-out",
+              isMobileMenuOpen ? "translate-y-0" : "translate-y-4",
             )}
             onClick={(e) => e.stopPropagation()}
           >
@@ -123,7 +123,7 @@ const Navbar = () => {
                   className={cn(
                     "text-2xl font-semibold py-1 transition-all duration-300 transform hover:scale-105",
                     location.pathname === link.href ? "text-gold" : "text-foreground/90 hover:text-gold",
-                    isMobileMenuOpen ? "opacity-100 translate-y-0" : "opacity-0 translate-y-4"
+                    isMobileMenuOpen ? "opacity-100 translate-y-0" : "opacity-0 translate-y-4",
                   )}
                   style={{
                     transitionDelay: isMobileMenuOpen ? `${index * 100}ms` : "0ms",
@@ -180,7 +180,7 @@ const Navbar = () => {
         href="tel:+2348133902855"
         className={cn(
           "lg:hidden fixed bottom-6 right-6 z-50 w-14 h-14 rounded-full bg-gradient-to-r from-gold to-gold-light flex items-center justify-center shadow-lg transition-all duration-300",
-          isMobileMenuOpen ? "scale-0 opacity-0" : "scale-100 opacity-100 animate-pulse-gold"
+          isMobileMenuOpen ? "scale-0 opacity-0" : "scale-100 opacity-100 animate-pulse-gold",
         )}
       >
         <Phone className="w-6 h-6 text-primary-foreground" />

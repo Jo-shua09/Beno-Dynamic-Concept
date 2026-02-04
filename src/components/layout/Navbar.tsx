@@ -177,7 +177,7 @@ const Navbar = () => {
 
       {/* Floating Call Button (Mobile) */}
       <a
-        href="tel:+2348133902855"
+        href="tel:+2347060443225"
         className={cn(
           "lg:hidden fixed bottom-6 right-6 z-50 w-14 h-14 rounded-full bg-gradient-to-r from-gold to-gold-light flex items-center justify-center shadow-lg transition-all duration-300",
           isMobileMenuOpen ? "scale-0 opacity-0" : "scale-100 opacity-100 animate-pulse-gold",

@@ -7,8 +7,8 @@ import fleetImage from "@/assets/fleet.jpg";
 import driverImage from "@/assets/driver-portrait.jpg";
 
 const stats = [
-  { number: "500+", label: "Drivers Deployed", icon: Users },
-  { number: "150+", label: "Corporate Clients", icon: Shield },
+  { number: "200+", label: "Drivers Deployed", icon: Users },
+  { number: "80+", label: "Corporate Clients", icon: Shield },
   { number: "50+", label: "Elite Drivers", icon: Car },
   { number: "24/7", label: "Availability", icon: Clock },
 ];

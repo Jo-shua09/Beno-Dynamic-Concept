@@ -24,7 +24,7 @@ A modern, responsive React application for Beno Dynamic Concept Nig., showcasing
 
 - **Service Showcase**: Detailed presentation of executive driver services
 - **Company Story**: Timeline and milestones of Beno Dynamic Concept
-- **Driver Training Info**: Comprehensive information about "Spy Driver" training program
+- **Driver Training Info**: Comprehensive information about " Driver" training program
 - **Contact Integration**: Direct WhatsApp messaging for booking inquiries
 - **SEO Optimized**: Meta tags and structured content for search engines
 

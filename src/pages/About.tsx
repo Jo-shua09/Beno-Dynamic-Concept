@@ -47,7 +47,7 @@ const milestones = [
     description: "Secured our first major corporate partnership, marking our entry into executive services.",
   },
   { year: "2018", title: "Fleet Expansion", description: "Expanded our fleet to include premium luxury vehicles from top manufacturers." },
-  { year: "2020", title: "Training Academy", description: "Launched our proprietary 'Spy Driver' training program for all personnel." },
+  { year: "2020", title: "Training Academy", description: "Launched our proprietary '  Driver' training program for all personnel." },
   { year: "2023", title: "Regional Expansion", description: "Extended services to cover the entire Lagos-Ogun corridor and beyond." },
 ];
 
@@ -145,17 +145,17 @@ const About = () => {
         </div>
       </section>
 
-      {/* Spy Driver Training */}
+      {/*   Driver Training */}
       <section className="section-padding">
         <div className="container-custom">
           <div className="grid lg:grid-cols-2 gap-8 lg:gap-20 items-center">
             <div className="order-2 lg:order-1 animate-slide-right opacity-0">
               <span className="text-gold text-sm font-medium tracking-widest uppercase mb-1 md:mb-4 block">
                 <GraduationCap className="w-4 h-4 inline mr-2" />
-                Spy Driver Program
+                Driver Program
               </span>
               <h2 className="font-serif text-2xl md:text-4xl font-bold text-foreground mb-4 md:mb-6">
-                The Making of a <span className="text-gradient-gold">Spy Driver</span>
+                The Making of a <span className="text-gradient-gold"> Driver</span>
               </h2>
               <p className="text-muted-foreground md:text-lg text-base mb-8">
                 Our proprietary training program transforms ordinary drivers into extraordinary professionals. Each candidate undergoes rigorous

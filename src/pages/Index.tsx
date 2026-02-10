@@ -38,7 +38,7 @@ const services = [
 const whyChooseUs = [
   {
     title: "Rigorous Training",
-    description: "Our drivers undergo extensive 'Spy Driver' training including defensive driving, VIP protocol, and situational awareness.",
+    description: "Our drivers undergo extensive '  Driver' training including defensive driving, VIP protocol, and situational awareness.",
   },
   {
     title: "Vetted Professionals",
@@ -244,7 +244,7 @@ const Index = () => {
               </p>
               <p className="text-muted-foreground mb-8">
                 Our drivers aren't just chauffeurs, they're trained specialists who understand the nuances of VIP protocol, defensive driving, and
-                situational awareness. We call them "Spy Drivers" because of their exceptional training and discretion.
+                situational awareness. We call them " Drivers" because of their exceptional training and discretion.
               </p>
 
               <Button variant="gold" size="lg" asChild>

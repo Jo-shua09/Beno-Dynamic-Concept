@@ -99,7 +99,7 @@ const Index = () => {
             </div>
 
             <h1 className="animate-fade-up opacity-0 delay-200 font-serif text-3xl md:text-5xl lg:text-6xl xl:text-7xl font-bold text-foreground leading-tight mb-4 md:mb-6">
-              Experience the Difference of <span className="text-gradient-gold">Professionally Trained</span> Spy Drivers
+              Experience the Difference of <span className="text-gradient-gold">Professionally Trained</span> Drivers
             </h1>
 
             <p className="animate-fade-up opacity-0 delay-300 text-base md:text-xl text-muted-foreground max-w-2xl mb-6">

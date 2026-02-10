@@ -4,7 +4,6 @@ import { Card, CardContent } from "@/components/ui/card";
 import { Shield, Clock, Award, Users, Car, Calendar, Zap, CheckCircle, ArrowRight, Star } from "lucide-react";
 import heroImage from "@/assets/hero-car.jpg";
 import fleetImage from "@/assets/fleet.jpg";
-import driverImage from "@/assets/driver-portrait.jpg";
 
 const stats = [
   { number: "200+", label: "Drivers Deployed", icon: Users },

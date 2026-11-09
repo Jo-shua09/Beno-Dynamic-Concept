@@ -240,7 +240,7 @@ const Index = () => {
               </h2>
               <p className="text-muted-foreground text-base md:text-lg mb-6">
                 Beno Dynamic Concept Nig. was founded with a singular vision: to provide Nigeria's finest professional drivers to companies,
-                executives, and VIPs who demand excellence.
+                executives, and VIPs who demand excellence. The company is led by its CEO, Mr. Onyeka (Osagie) Aigbaze.
               </p>
               <p className="text-muted-foreground mb-8">
                 Our drivers aren't just chauffeurs, they're trained specialists who understand the nuances of VIP protocol, defensive driving, and

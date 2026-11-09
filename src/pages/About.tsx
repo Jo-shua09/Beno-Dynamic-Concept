@@ -1,8 +1,7 @@
 import { Link } from "react-router-dom";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
-import { Shield, Target, Eye, Award, Users, CheckCircle, ArrowRight, Briefcase, GraduationCap } from "lucide-react";
-import driverImage from "@/assets/driver-portrait.jpg";
+import { Shield, Target, Eye, Award, Users, CheckCircle, ArrowRight, Briefcase, GraduationCap, UserRound } from "lucide-react";
 import fleetImage from "@/assets/fleet.jpg";
 
 const values = [
@@ -88,8 +87,8 @@ const About = () => {
                   who understood not just the roads, but the nuances of security, protocol, and professionalism.
                 </p>
                 <p>
-                  Our founder, with a background in security services and executive protection, assembled a team of like-minded professionals who
-                  shared a vision: to create the gold standard in Nigerian executive transportation.
+                  Our founder and CEO, Mr. Onyeka (Osagie) Aigbaze, assembled a team of like-minded professionals who shared a vision: to create
+                  the gold standard in Nigerian executive transportation.
                 </p>
                 <p>
                   Today, we serve some of Nigeria's most prominent business leaders, diplomats, and organizations. But our mission remains unchanged,
@@ -100,7 +99,7 @@ const About = () => {
 
             <div className="relative animate-slide-left opacity-0">
               <div className="relative aspect-[4/5] rounded-2xl overflow-hidden bg-gradient-to-br from-gold/10 to-gold/5 flex items-center justify-center">
-                <Shield className="w-32 h-32 md:w-48 md:h-48 text-gold/60" />
+                <UserRound className="w-32 h-32 md:w-48 md:h-48 text-gold/60" aria-hidden="true" />
                 <div className="absolute inset-0 bg-gradient-to-t from-background/60 to-transparent" />
               </div>
               <div className="absolute -bottom-6 -left-6 glass-card p-6">
